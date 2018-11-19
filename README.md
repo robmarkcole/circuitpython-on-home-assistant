@@ -30,7 +30,7 @@ General advice on connecting to a Circuitpython REPL over serial (USB) is [here]
 </p>
 
 ## Circuitpython files
-CircuitPython boards show up as an external disk when plugged in via USB on a regular computer. Unfortunately we cannot browse external filesystems from the Cloud9 addon for Home-Assistant. However Adafruit publish a python package [ampy](https://github.com/adafruit/ampy) which we can use to explore files on the board, and post files to the board.
+However Adafruit publish a python package [ampy](https://github.com/adafruit/ampy) which we can use to explore files on the board, and post files to the board.
 
 1. `sudo pip3 install adafruit-ampy` -> to install, if you haven't before. Note sudo is required
 2. `ampy --port /dev/ttyUSB0 ls` -> list files, note that screen cannot be running (unplug and replug the board to close screen and reset the connection).
