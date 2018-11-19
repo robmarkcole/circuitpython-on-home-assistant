@@ -34,4 +34,7 @@ CircuitPython boards show up as an external disk when plugged in via USB on a re
 Not all projects will require data logging or plotting, but those projects are where integration with Home-Assistant can add the most value. Home-Assistant integration will allow logging of board data to a SQL database for long term storage. Home-Assistant can be used for plotting this data, but its plotting is pretty basic, so this project will also develop tools for plotting board data, for example using Bokeh.  
 
 ## CircuitPython for ESP8266
-Most of the currently available CircuitPython boards lack wifi, which is a real limitation for home automation projects. Fortunately we can use CircuitPython on the ESP8266 board which has both wifi/bluetooth. We then get the benefits of the nicely curated CircuitPython ecosystem, as well as low cost hardware with wifi.
+Most of the currently available CircuitPython boards lack wifi, which is a real limitation for home automation projects. Fortunately we can use CircuitPython on the ESP8266 boards which have both wifi. We then get the benefits of the nicely curated CircuitPython ecosystem, as well as low cost hardware with wifi. CircuitPython can run on both the official feather-huzzah-esp8266 board, but also a raw ESP8266 module (but with incorrectly mapped pins). I will develop this project using the feather-huzzah-esp8266 board, and then add the raw ESP8266 board to the docs later.
+
+## Adafruit feather huzzah esp8266
+The official esp8266 board supported by CircuitPython is the [feather-huzzah-esp8266](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266).
