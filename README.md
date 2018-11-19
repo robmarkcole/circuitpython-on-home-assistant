@@ -37,4 +37,8 @@ Not all projects will require data logging or plotting, but those projects are w
 Most of the currently available CircuitPython boards lack wifi, which is a real limitation for home automation projects. Fortunately we can use CircuitPython on the ESP8266 boards which have both wifi. We then get the benefits of the nicely curated CircuitPython ecosystem, as well as low cost hardware with wifi. CircuitPython can run on both the official feather-huzzah-esp8266 board, but also a raw ESP8266 module (but with incorrectly mapped pins). I will develop this project using the feather-huzzah-esp8266 board, and then add the raw ESP8266 board to the docs later.
 
 ## Adafruit feather huzzah esp8266
-The official esp8266 board supported by CircuitPython is the [feather-huzzah-esp8266](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266).
+The official esp8266 board supported by CircuitPython is the [feather-huzzah-esp8266](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266). This board has connection for a battery, and the pinouts are correct, so its the baseline board for this project.
+
+<p align="center">
+<img src="https://github.com/robmarkcole/circuitpython-on-home-assistant/blob/master/images/huzzah.jpg" width="700">
+</p>
