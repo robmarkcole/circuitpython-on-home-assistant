@@ -21,9 +21,13 @@ The official esp8266 board supported by CircuitPython is the [feather-huzzah-esp
 ## Flashing firmware
 The official instructions for flashing the board firmware are [here](https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-for-esp8266). We use the [esptool](https://github.com/espressif/esptool) for this process, and I created a new directory `circuitpython` using the IDE:
 
-1. `sudo pip3 install esptool` -> install the esptool and check it was successfull by entering `esptool.py -h` which prints the help info.
+1. `sudo pip3 install esptool` -> install the esptool and check it was successful by entering `esptool.py -h` which prints the help info.
 2. `sudo curl -OL https://github.com/adafruit/circuitpython/releases/download/3.1.1/adafruit-circuitpython-feather_huzzah-3.1.1.bin` -> download the firmware `.bin` file, here for Circuitpython release 3.1.1. Check [here](https://github.com/adafruit/circuitpython/releases/latest) for the URL to the latest Circuitpython release.
-3. .. to add
+3. The feather-huzzah-esp8266 board will detect when its firmware is being updated, but a raw ESP8266 would now require us to [put it in bootloader mode](https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-for-esp8266#get-esp8266-ready-for-bootloading-13-6).
+4. `esptool.py --port ESP8266_PORTNAME erase_flash` -> erase the current firmware, where in my case `ESP8266_PORTNAME` is `/dev/ttyUSB0`
+5. `esptool.py --port ESP8266_PORTNAME --baud 115200 write_flash --flash_size=detect 0 firmware.bin` -> write the new firmware, again replacing `ESP8266_PORTNAME` with your port and replacing `firmware.bin` with `adafruit-circuitpython-feather_huzzah-3.1.1.bin`
+
+You have now updated the board firmware, which in this example results in the board running CircuitPython 3.1.1.
 
 ## Circuitpython REPL from Home-Assistant
 General advice on connecting to a Circuitpython REPL over serial (USB) is [here](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux). The following advice is specific to connecting to the ESP8266 board via the Cloud9 IDE, and assumes you are logged in as the default `pi` user.
