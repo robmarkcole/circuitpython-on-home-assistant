@@ -1,4 +1,4 @@
-Use ampy to view the boot.py file on the huzzah:
+Use [ampy](https://github.com/adafruit/ampy) to view the boot.py file on the huzzah:
 ```
 Robins-MacBook:board_files robincole$ ampy --port /dev/tty.SLAB_USBtoUART get boot.py
 
