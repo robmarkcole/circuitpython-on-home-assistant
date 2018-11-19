@@ -12,17 +12,17 @@ The official esp8266 board supported by CircuitPython is the [feather-huzzah-esp
 </p>
 
 ## Home-Assistant setup
-I am running [Hassbian](https://www.home-assistant.io/docs/installation/hassbian/) distribution of [Home-Assistant](https://www.home-assistant.io/) (henceforth HA) on a pi 3B+ and am using the Cloud9 IDE addon, with setup process described [here](https://www.hackster.io/robin-cole/tensorflow-object-detection-with-home-assistant-7cc04b).
+I am running [Hassbian](https://www.home-assistant.io/docs/installation/hassbian/) distribution of [Home-Assistant](https://www.home-assistant.io/) on a pi 3B+ and am using the Cloud9 IDE addon, with setup process described [here](https://www.hackster.io/robin-cole/tensorflow-object-detection-with-home-assistant-7cc04b).
 
 <p align="center">
 <img src="https://github.com/robmarkcole/circuitpython-on-home-assistant/blob/master/images/setup.jpg" width="700">
 </p>
 
-## Circuitpython REPL from HA
+## Circuitpython REPL from Home-Assistant
 General advice on connecting to a Circuitpython REPL over serial (USB) is [here](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux). The following advice is specific to connecting to the ESP8266 board via the Cloud9 IDE, and assumes you are logged in as the default `pi` user.
 
 1. `sudo apt-get install screen` -> install [screen](https://www.gnu.org/software/screen/), if you have never done so before.
-2. `ls /dev/tty*` -> list available devices/terminals, and I identified the esp by plugging and unplugging the board and checking what was added to this list. My boards shows up as `/dev/ttyUSB0`
+2. `ls /dev/tty*` -> list available devices/terminals, and I identified the ESP8266 by plugging and unplugging the board and checking what was added to this list. My boards shows up as `/dev/ttyUSB0`
 3. `screen /dev/ttyUSB0 115200` -> connect to the board via screen. If you get the error `Cannot open your terminal '/dev/pts/2' - please check.`, run `script /dev/null` and try again.
 
 <p align="center">
