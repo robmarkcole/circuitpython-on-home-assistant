@@ -32,7 +32,7 @@ General advice on connecting to a Circuitpython REPL over serial (USB) is [here]
 </p>
 
 ## Circuitpython files
-However Adafruit publish a python package [ampy](https://github.com/adafruit/ampy) which we can use to explore files on the board, and post files to the board.
+Adafruit publish a python package [ampy](https://github.com/adafruit/ampy) which we can use to explore files on the board, as well as post `.py` files to the board.
 
 1. `sudo pip3 install adafruit-ampy` -> to install, if you haven't before. Note sudo is required
 2. `ampy --port /dev/ttyUSB0 ls` -> list files, note that screen cannot be running (unplug and replug the board to close screen and reset the connection).
@@ -42,5 +42,5 @@ However Adafruit publish a python package [ampy](https://github.com/adafruit/amp
 <img src="https://github.com/robmarkcole/circuitpython-on-home-assistant/blob/master/images/ampy.png" width="700">
 </p>
 
-## Data logging & plotting
-Not all projects will require data logging or plotting, but those projects are where integration with Home-Assistant can add the most value. Home-Assistant integration will allow logging of board data to a SQL database for long term storage. Home-Assistant can be used for plotting this data, but its plotting is pretty basic, so this project will also develop tools for plotting board data, for example using Bokeh.  
+## Data plotting
+Home-Assistant integration will allow logging of board data to a SQL database for long term storage. Home-Assistant can also be used for plotting this data, but its plotting capabilities are pretty basic. Therefore the scope of this project will also include the development of tools for plotting board data, for example using Bokeh.  
