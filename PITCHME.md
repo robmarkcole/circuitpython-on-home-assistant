@@ -6,7 +6,7 @@
 * Online demo https://micropython.org/unicorn/
 
 <p align="center">
-<img src="https://www.robotfreak.de/blog/wp-content/uploads/2016/12/MicroPython-Logo.jpg" width="400">
+<img src="https://www.robotfreak.de/blog/wp-content/uploads/2016/12/MicroPython-Logo.jpg" width="500">
 </p>
 
 ---
@@ -19,12 +19,12 @@
 * Save changes to .py file and they are instantly run!
 
 <p align="center">
-<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="300">
+<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="400">
 </p>
 
 ---
 
-[Circuitpython hardware](https://www.adafruit.com/circuitpython)
+[CircuitPython hardware](https://www.adafruit.com/circuitpython)
 ![CircuitPython boards](https://cdn-learn.adafruit.com/guides/cropped_images/000/001/997/medium640/Micros2.jpg)
 
 ---
@@ -41,11 +41,11 @@ Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) fr
 
 ---
 
-[CircuitPython Air Quality Monitor (AQM) project](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
+[Air Quality Monitor (AQM) project](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node/master/images/summary_pic.png" width="600">
+<img src="https://raw.githubusercontent.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node/master/images/summary_pic.png" width="900">
 </p>
 
 
