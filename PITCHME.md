@@ -1,3 +1,12 @@
+# **Getting started with CircuitPython**
+#### Robin Cole - 20/11/2018
+
+<p align="center">
+<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
+</p>
+
+---
+
 ### MicroPython
 
 * Brainchild of [Damien George](http://dpgeorge.net/)
@@ -35,7 +44,7 @@ Beginner friendly MU editor https://codewith.mu
 
 ---
 
-[Plot streaming data from sensors](https://codewith.mu/en/tutorials/1.0/plotter) 
+[Plot streaming data from sensors](https://codewith.mu/en/tutorials/1.0/plotter)
 
 ![Alt Text](https://codewith.mu/img/en/tutorials/python3_plotter.gif)
 
