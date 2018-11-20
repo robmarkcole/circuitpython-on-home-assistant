@@ -32,8 +32,7 @@
 
 ### MU editor
 
-- Beginner friendly [MU editor](https://codewith.mu/) auto-detects CircuitPython board
-- Use REPL and plot streaming data
+- [MU editor](https://codewith.mu/) auto-detects CircuitPython board
 
 ![Alt Text](https://codewith.mu/img/en/mu.gif)
 
@@ -44,3 +43,28 @@
 - Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
 
 ![Alt Text](https://codewith.mu/img/en/tutorials/python3_plotter.gif)
+
+---
+
+### My projects
+
+- [MicroPython water leak detector](https://www.hackster.io/robin-cole/micropython-leak-detector-with-adafruit-and-home-assistant-a2fa9e)
+
+<p align="center">
+<img src="https://hackster.imgix.net/uploads/attachments/293010/img_3800_myfPzRhOOD.JPG" width="250">
+</p>
+
+
+- [CircuitPython Air Quality Monitor (AQM)](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
+
+---
+
+### Summary
+
+- Single board computers running python
+- Beginner friendly MU editor
+- Lots of great projects possible, e.g. [capacitative fruit drumkit!](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/capacitive-touch)
+
+<p align="center">
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/054/836/original/circuitpython_CPXAlligatorFruit.jpg" width="300">
+</p>
