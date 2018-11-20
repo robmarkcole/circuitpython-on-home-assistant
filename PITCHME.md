@@ -29,14 +29,13 @@
 
 ---
 
-* Beginner friendly MU editor
-* https://codewith.mu
+Beginner friendly MU editor https://codewith.mu
 
 ![Alt Text](https://codewith.mu/img/en/mu.gif)
 
 ---
 
-[Plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
+[Plot streaming data from sensors](https://codewith.mu/en/tutorials/1.0/plotter) 
 
 ![Alt Text](https://codewith.mu/img/en/tutorials/python3_plotter.gif)
 
