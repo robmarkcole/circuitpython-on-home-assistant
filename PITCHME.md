@@ -1,32 +1,19 @@
 ## Getting started with CircuitPython
 #### Robin Cole - 20/11/2018
 
+
 <p align="center">
 <img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
 </p>
 
 ---
 
-### MicroPython
-
-* Brainchild of [Damien George](http://dpgeorge.net/)
-* Python 3 running on single board computer
-* Interact with board via the REPL
-* Online demo https://micropython.org/unicorn/
-
-<p align="center">
-<img src="https://cdn.sparkfun.com/assets/home_page_posts/2/7/6/5/MicroPython_logo_400x400.jpg" width="200">
-</p>
-
----
-
 ### CircuitPython
-
-* A fork of MicroPython by Adafruit
-* https://learn.adafruit.com/welcome-to-circuitpython/
+* Python 3 running on single board computer
 * Curated ecosystem of code and docs
 * Ideal for beginners - boards show as USB drive
 * Save changes to .py file and they run instantly!
+* https://learn.adafruit.com/welcome-to-circuitpython/
 
 <p align="center">
 <img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
