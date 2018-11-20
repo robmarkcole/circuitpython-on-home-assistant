@@ -25,7 +25,7 @@
 * A fork of MicroPython by [Adafruit](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)
 * Curated ecosystem of code and docs
 * Ideal for beginners - boards show as USB drive
-* Save changes to .py file and they are instantly run!
+* Save changes to .py file and they run instantly!
 
 <p align="center">
 <img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
@@ -65,7 +65,7 @@ Beginner friendly MU editor https://codewith.mu
 
 - Single board computers running python
 - Beginner friendly MU editor
-- Lots of great projects possible, e.g. [capacitative fruit drumkit!](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/capacitive-touch)
+- Great projects possible, e.g. [fruit drumkit!](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/capacitive-touch)
 
 <p align="center">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/054/836/original/circuitpython_CPXAlligatorFruit.jpg" width="600">
