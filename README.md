@@ -53,3 +53,6 @@ Adafruit publish a python package [ampy](https://github.com/adafruit/ampy) which
 
 ## Data plotting
 Home-Assistant integration will allow logging of board data to a SQL database for long term storage. Home-Assistant can also be used for plotting this data, but its plotting capabilities are pretty basic. Therefore the scope of this project will also include the development of tools for plotting board data, for example using Bokeh.  
+
+## Presentation
+Presentation on circuitpython at https://gitpitch.com/robmarkcole/circuitpython-on-home-assistant/master
