@@ -1,4 +1,4 @@
-# **Getting started with CircuitPython**
+## Getting started with CircuitPython
 #### Robin Cole - 20/11/2018
 
 <p align="center">
