@@ -25,8 +25,8 @@
 ---
 
 ### CircuitPython boards
-
 ![CircuitPython boards](https://cdn-learn.adafruit.com/guides/cropped_images/000/001/997/medium640/Micros2.jpg)
+[CircuitPython accessories](https://www.adafruit.com/circuitpython)
 
 ---
 
