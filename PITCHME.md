@@ -19,7 +19,7 @@
 * Save changes to .py file and they are instantly run!
 
 <p align="center">
-<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="400">
+<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
 </p>
 
 ---
@@ -29,13 +29,14 @@
 
 ---
 
-### Beginner friendly MU editor
-https://codewith.mu
+* Beginner friendly MU editor
+* https://codewith.mu
+
 ![Alt Text](https://codewith.mu/img/en/mu.gif)
 
 ---
 
-Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
+[Plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
 
 ![Alt Text](https://codewith.mu/img/en/tutorials/python3_plotter.gif)
 
