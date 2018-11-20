@@ -24,7 +24,6 @@
 
 ---
 
-### CircuitPython boards
 [Circuitpython hardware](https://www.adafruit.com/circuitpython)
 ![CircuitPython boards](https://cdn-learn.adafruit.com/guides/cropped_images/000/001/997/medium640/Micros2.jpg)
 
@@ -42,13 +41,11 @@ Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) fr
 
 ---
 
-### CircuitPython Air Quality Monitor project
-
-- [CircuitPython Air Quality Monitor (AQM)](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
+[CircuitPython Air Quality Monitor (AQM) project](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node/master/images/summary_pic.png" width="400">
+<img src="https://raw.githubusercontent.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node/master/images/summary_pic.png" width="600">
 </p>
 
 
@@ -62,5 +59,5 @@ Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) fr
 - Lots of great projects possible, e.g. [capacitative fruit drumkit!](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/capacitive-touch)
 
 <p align="center">
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/054/836/original/circuitpython_CPXAlligatorFruit.jpg" width="300">
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/054/836/original/circuitpython_CPXAlligatorFruit.jpg" width="600">
 </p>
