@@ -36,3 +36,11 @@
 - Use REPL and plot streaming data
 
 ![Alt Text](https://codewith.mu/img/en/mu.gif)
+
+---
+
+### Plot streaming data
+
+- Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
+
+![Alt Text](https://codewith.mu/img/en/tutorials/python3_plotter.gif)
