@@ -32,8 +32,7 @@
 
 ### MU editor
 
-- Beginner friendly MU editor auto-detects CircuitPython board
+- Beginner friendly [MU editor](https://codewith.mu/) auto-detects CircuitPython board
 - Use REPL and plot streaming data
-- https://codewith.mu/
 
 ![Alt Text](https://codewith.mu/img/en/mu.gif)
