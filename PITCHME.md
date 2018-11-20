@@ -1,6 +1,6 @@
 ### MicroPython
 
-* Brainchild of Damien George
+* Brainchild of [Damien George](http://dpgeorge.net/)
 * Python 3 running on single board computer
 * Interact with board via the REPL
 * Online demo https://micropython.org/unicorn/
@@ -25,37 +25,33 @@
 ---
 
 ### CircuitPython boards
+[Circuitpython hardware](https://www.adafruit.com/circuitpython)
 ![CircuitPython boards](https://cdn-learn.adafruit.com/guides/cropped_images/000/001/997/medium640/Micros2.jpg)
-[CircuitPython accessories](https://www.adafruit.com/circuitpython)
 
 ---
 
-### MU editor
-
-- [MU editor](https://codewith.mu/) auto-detects CircuitPython board
-
+### Beginner friendly MU editor
+https://codewith.mu
 ![Alt Text](https://codewith.mu/img/en/mu.gif)
 
 ---
 
-### Plot streaming data
-
-- Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
+Simple to [plot streaming data](https://codewith.mu/en/tutorials/1.0/plotter) from sensors
 
 ![Alt Text](https://codewith.mu/img/en/tutorials/python3_plotter.gif)
 
 ---
 
-### My projects
+### CircuitPython Air Quality Monitor project
 
-- [MicroPython water leak detector](https://www.hackster.io/robin-cole/micropython-leak-detector-with-adafruit-and-home-assistant-a2fa9e)
+- [CircuitPython Air Quality Monitor (AQM)](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
+
 
 <p align="center">
-<img src="https://hackster.imgix.net/uploads/attachments/293010/img_3800_myfPzRhOOD.JPG" width="250">
+<img src="https://raw.githubusercontent.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node/master/images/summary_pic.png" width="400">
 </p>
 
 
-- [CircuitPython Air Quality Monitor (AQM)](https://github.com/robmarkcole/HASS-circuitpython-air-quality-sensor-node)
 
 ---
 
