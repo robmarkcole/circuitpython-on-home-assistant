@@ -15,7 +15,7 @@
 * Online demo https://micropython.org/unicorn/
 
 <p align="center">
-<img src="https://www.robotfreak.de/blog/wp-content/uploads/2016/12/MicroPython-Logo.jpg" width="300">
+<img src="https://cdn.sparkfun.com/assets/home_page_posts/2/7/6/5/MicroPython_logo_400x400.jpg" width="200">
 </p>
 
 ---
