@@ -3,6 +3,7 @@
 * Python 3 running on single board computer
 * Interact with board via the REPL
 
+---
 
 # CircuitPython
 
@@ -12,7 +13,7 @@
 * Save changes to .py file and they are instantly run in the board!
 
 <p align="center">
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/049/442/original/circuitpython_pyboards.jpg" width="600">
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/049/442/original/circuitpython_pyboards.jpg" width="400">
 </p>
 
 ---
