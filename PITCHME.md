@@ -6,7 +6,7 @@
 * Online demo https://micropython.org/unicorn/
 
 <p align="center">
-<img src="https://www.robotfreak.de/blog/wp-content/uploads/2016/12/MicroPython-Logo.jpg" width="200">
+<img src="https://www.robotfreak.de/blog/wp-content/uploads/2016/12/MicroPython-Logo.jpg" width="400">
 </p>
 
 ---
@@ -14,9 +14,9 @@
 ### CircuitPython
 
 * A fork of MicroPython by [Adafruit](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)
-* Curated ecosystem of python libraries and documentation
-* Ideal for beginners - boards show up as USB drive
-* Save changes to .py file and they are instantly run on the board!
+* Curated ecosystem of code and docs
+* Ideal for beginners - boards show as USB drive
+* Save changes to .py file and they are instantly run!
 
 <p align="center">
 <img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="300">
