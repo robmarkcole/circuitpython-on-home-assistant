@@ -1,24 +1,20 @@
-# MicroPython
+### MicroPython
 
 * Python 3 running on single board computer
 * Interact with board via the REPL
 
 ---
 
-# CircuitPython
+### CircuitPython
 
-* A fork of MicroPython
-* Curated ecosystem of python libraries and documentation at https://learn.adafruit.com/welcome-to-circuitpython
+* A fork of MicroPython by Adafruit
+* Curated ecosystem of python libraries and documentation
 * Ideal for beginners - boards show up as USB drive
 * Save changes to .py file and they are instantly run in the board!
 
 <p align="center">
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/049/442/original/circuitpython_pyboards.jpg" width="400">
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/049/442/original/circuitpython_pyboards.jpg" width="300">
 </p>
-
----
-
-![CircuitPython boards](https://cdn-learn.adafruit.com/assets/assets/000/049/442/original/circuitpython_pyboards.jpg)
 
 ---
 
