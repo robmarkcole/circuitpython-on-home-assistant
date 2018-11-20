@@ -24,10 +24,16 @@
 
 ---
 
+### CircuitPython boards
+
 ![CircuitPython boards](https://cdn-learn.adafruit.com/guides/cropped_images/000/001/997/medium640/Micros2.jpg)
 
 ---
 
 ### MU editor
 
-- Beginner friendly MU editor auto-detects board
+- Beginner friendly MU editor auto-detects CircuitPython board
+- Use REPL and plot streaming data
+- https://codewith.mu/
+
+![Alt Text](https://codewith.mu/img/en/mu.gif)
