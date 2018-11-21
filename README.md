@@ -24,7 +24,7 @@ The official instructions for flashing the board firmware are [here](https://lea
 1. `sudo pip3 install esptool` -> install the esptool and check it was successful by entering `esptool.py -h` which prints the help info.
 2. `sudo curl -OL https://github.com/adafruit/circuitpython/releases/download/3.1.1/adafruit-circuitpython-feather_huzzah-3.1.1.bin` -> download the firmware `.bin` file, here for Circuitpython release 3.1.1. Check [here](https://github.com/adafruit/circuitpython/releases/latest) for the URL to the latest Circuitpython release.
 3. `esptool.py --port ESP8266_PORTNAME erase_flash` -> erase the current firmware, where in my case `ESP8266_PORTNAME` is `/dev/ttyUSB0`
-4. `esptool.py --port ESP8266_PORTNAME --baud 115200 write_flash --flash_size=detect 0 firmware.bin` -> write the new firmware, again replacing `ESP8266_PORTNAME` with your port and replacing `firmware.bin` with `adafruit-circuitpython-feather_huzzah-3.1.1.bin`
+4. `esptool.py --port ESP8266_PORTNAME --baud 115200 write_flash --flash_size=detect 0 firmware.bin` -> write the new firmware, again replacing `ESP8266_PORTNAME` with your port and replacing `firmware.bin` with `adafruit-circuitpython-feather_huzzah-3.1.1.bin`. Note that for the raw esp8266 I had to use slightly different settings, changing the baud and adding `-fm dio` -> `esptool.py --port ESP8266_PORTNAME --baud 460800 write_flash --flash_size=detect -fm dio 0 firmware.bin`
 
 You have now updated the board firmware, which in this example results in the board running CircuitPython 3.1.1. Note that the above process worked without problems for both the feather-huzzah-esp8266 and the raw esp8266 board.
 
@@ -36,6 +36,10 @@ General advice on connecting to a Circuitpython REPL over serial (USB) is [here]
 3. `screen /dev/ttyUSB0 115200` -> connect to the board via screen. If you get the error `Cannot open your terminal '/dev/pts/2' - please check.`, run `script /dev/null` and try again.
 4. Do whatever you want to do via the REPL
 5. `screen -list` -> To check running screen processes, useful if you become detached, this will return something like `6248.pts-3.hassbian     (20/11/18 20:37:25)     (Detached)`. To kill that process `screen -S 6248 -X quit`
+
+An alternative to screen is piocom:
+1. `sudo apt-get install picocom`
+2. `picocom -b115200 /dev/ttyUSB0`
 
 <p align="center">
 <img src="https://github.com/robmarkcole/circuitpython-on-home-assistant/blob/master/images/circuitpython_ha.png" width="1200">
