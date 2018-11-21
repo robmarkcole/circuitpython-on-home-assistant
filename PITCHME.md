@@ -3,20 +3,19 @@
 
 
 <p align="center">
-<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
+<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="300">
 </p>
 
 ---
 
 ### CircuitPython
-* Python 3 running on single board computer
+* CircuitPython is Python 3 running on a single board computer
 * Curated ecosystem of code and docs
 * Ideal for beginners - boards show as USB drive
-* Save changes to .py file and they run instantly!
 * https://learn.adafruit.com/welcome-to-circuitpython/
 
 <p align="center">
-<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="350">
+<img src="https://cdn-shop.adafruit.com/1200x900/3403-04.jpg" width="300">
 </p>
 
 ---
@@ -51,9 +50,9 @@ Beginner friendly MU editor https://codewith.mu
 
 ### Summary
 
-- Single board computers running python
-- Beginner friendly MU editor
-- Great projects possible, e.g. [fruit drumkit!](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/capacitive-touch)
+- CircuitPython is Python 3 running on a single board computer
+- Gather data and get involved in citizen science
+- Or just have fun making projects such as a [fruit drumkit!](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/capacitive-touch)
 
 <p align="center">
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/054/836/original/circuitpython_CPXAlligatorFruit.jpg" width="600">
