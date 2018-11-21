@@ -26,7 +26,7 @@ The official instructions for flashing the board firmware are [here](https://lea
 3. `esptool.py --port ESP8266_PORTNAME erase_flash` -> erase the current firmware, where in my case `ESP8266_PORTNAME` is `/dev/ttyUSB0`
 4. `esptool.py --port ESP8266_PORTNAME --baud 115200 write_flash --flash_size=detect 0 firmware.bin` -> write the new firmware, again replacing `ESP8266_PORTNAME` with your port and replacing `firmware.bin` with `adafruit-circuitpython-feather_huzzah-3.1.1.bin`. Note that for the raw esp8266 I had to use slightly different settings, changing the baud and adding `-fm dio` -> `esptool.py --port ESP8266_PORTNAME --baud 460800 write_flash --flash_size=detect -fm dio 0 firmware.bin`
 
-You have now updated the board firmware, which in this example results in the board running CircuitPython 3.1.1. Note that the above process worked without problems for both the feather-huzzah-esp8266 and the raw esp8266 board.
+You have now updated the board firmware, which in this example results in the board running CircuitPython 3.1.1. Note that the above process worked without problems for both the feather-huzzah-esp8266 and the raw esp8266 board. Note also that exactly the same process is used to flash [vanilla micropython](https://docs.micropython.org/en/latest/index.html) firmware to the boards, the firmware files are [here](http://micropython.org/download#esp8266).
 
 ## Circuitpython REPL from Home-Assistant
 General advice on connecting to a Circuitpython REPL over serial (USB) is [here](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux). The following advice is specific to connecting to the ESP8266 board via the Cloud9 IDE, and assumes you are logged in as the default `pi` user.
@@ -34,12 +34,8 @@ General advice on connecting to a Circuitpython REPL over serial (USB) is [here]
 1. `sudo apt-get install screen` -> install [screen](https://www.gnu.org/software/screen/), if you have never done so before.
 2. `ls /dev/tty*` -> list available devices/terminals, and I identified the ESP8266 by plugging and unplugging the board and checking what was added to this list. My boards shows up as `/dev/ttyUSB0`
 3. `screen /dev/ttyUSB0 115200` -> connect to the board via screen. If you get the error `Cannot open your terminal '/dev/pts/2' - please check.`, run `script /dev/null` and try again.
-4. Do whatever you want to do via the REPL
+4. Do whatever you want to do via the REPL. To exit screen session `control + A + D`
 5. `screen -list` -> To check running screen processes, useful if you become detached, this will return something like `6248.pts-3.hassbian     (20/11/18 20:37:25)     (Detached)`. To kill that process `screen -S 6248 -X quit`
-
-An alternative to screen is piocom:
-1. `sudo apt-get install picocom`
-2. `picocom -b115200 /dev/ttyUSB0`
 
 <p align="center">
 <img src="https://github.com/robmarkcole/circuitpython-on-home-assistant/blob/master/images/circuitpython_ha.png" width="1200">
